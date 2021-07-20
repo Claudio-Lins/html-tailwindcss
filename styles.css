@@ -631,8 +631,16 @@ video {
   display: flex;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-43 {
+  width: 10.75rem;
 }
 
 .flex-col {
@@ -652,6 +660,11 @@ video {
   background-color: rgba(91, 33, 182, var(--tw-bg-opacity));
 }
 
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(252, 165, 165, var(--tw-bg-opacity));
+}
+
 .text-\[100px\] {
   font-size: 100px;
 }
@@ -659,30 +672,4 @@ video {
 .text-\[\#ffffff\] {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
-}
-
-@layer components {
-  .btn {
-    border-radius: 0.25rem;
-  }
-
-  .btn {
-    --tw-bg-opacity: 1;
-    background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
-  }
-
-  .btn {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .btn {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .btn {
-    --tw-text-opacity: 1;
-    color: rgba(255, 255, 255, var(--tw-text-opacity));
-  }
 }
